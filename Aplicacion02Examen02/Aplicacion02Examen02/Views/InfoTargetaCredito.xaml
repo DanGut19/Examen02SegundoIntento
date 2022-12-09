@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplicacion02Examen02.Views.InfoTargetaCredito"
+             IconImageSource="targeta.png">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre del Banco"></Label>
+            <Entry></Entry>
+
+            <Label Text="Nombre del Usuario"></Label>
+            <Entry></Entry>
+
+            <Label Text="Codigo"/>
+            <Entry Keyboard="Numeric"/>
+
+            <Label Text="Contrasenia"></Label>
+            <Entry Keyboard="Numeric"/>
+
+            <Button Text="Guardar"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

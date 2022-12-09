@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion02Examen02.Android", "Aplicacion02Examen02\Aplicacion02Examen02.Android\Aplicacion02Examen02.Android.csproj", "{8D7E5A95-692A-457D-81ED-80A83257A8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion02Examen02", "Aplicacion02Examen02\Aplicacion02Examen02\Aplicacion02Examen02.csproj", "{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7E5A95-692A-457D-81ED-80A83257A8D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35155F48-7E1C-4B49-A1B1-F118C53E9A2F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {424DB3BE-E0D2-4E8F-B88E-1EB2780A91E7}
+	EndGlobalSection
+EndGlobal

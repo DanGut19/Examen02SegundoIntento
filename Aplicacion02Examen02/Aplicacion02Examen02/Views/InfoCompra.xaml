@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:Aplicacion02Examen02.ViewModels" 
+             x:DataType="viewmodels:ViewModelUsuario"
+             x:Class="Aplicacion02Examen02.Views.InfoCompra"
+             IconImageSource="compra.png">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Producto"></Label>
+            <Entry></Entry>
+
+            <Label Text="Precio"></Label>
+            <Entry Keyboard="Numeric"/>
+
+            <Button Text="Guardar"></Button>
+
+            <Button Command="{Binding AbrirLista}" Text="Abrir Lista"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
